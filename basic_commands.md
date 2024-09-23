@@ -1,10 +1,12 @@
-## Basic Commands:
+# Basic Commands:
 
 Not sure what to do?
 
 `git --help`
 
 This will give you all the commands that you can use and a brief summary of what they do.
+
+### The following are a handful of commands needed to use git
 
 To clone a repository:
 
@@ -16,7 +18,7 @@ To pull latest changes from a repository:
 
 To checkout a remote branch:
 
-`git checkout <branch name>`
+`git checkout -b <local branch name> <remote repository>/<remote branch name>`
 
 To create and checkout a new local branch:
 
