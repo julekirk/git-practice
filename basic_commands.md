@@ -24,6 +24,10 @@ To create and checkout a new local branch:
 
 `git checkout -b <branch name>`
 
+To view staging area:
+
+`git status`
+
 Add changes to staging area:
 
 `git add .`
@@ -35,6 +39,14 @@ To commit changes:
 Push local changes to remote repository:
 
 `git push <remote repository> <branch name>`
+
+Stash changes
+
+`git stash`
+
+Retrieve stashed changes:
+
+`git stash pop`
 
 To view your remote repositories:
 
