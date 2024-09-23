@@ -4,9 +4,13 @@ def say_hello():
 def say_hello_to_julie():
     print("Hello, Julie!")
 
+def say_hello_to_vienna():
+    print("Hello, Vienna!")
+
 def main():
     say_hello()
     say_hello_to_julie()
+    say_hello_to_vienna()
 
 if __name__ == "__main__":
     main()
